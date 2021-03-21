@@ -1,0 +1,269 @@
+/*
+Theme Name: WHATSAPP
+Author: Taciara Furtado
+Version: 1.0
+Author URI: http://taciara.com.br/
+*/
+
+*{
+    position: relative;
+    margin: 0;
+    padding: 0;
+    outline: none;
+    resize: none;
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+}
+
+body{}
+.content{display: table;
+    width: 80%;
+    margin: 0 auto;}
+    
+#como-funciona{
+    width: 50%;
+    min-height: 100vh;
+    position: relative;
+    background-size: cover;
+    align-items: flex-start;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    background-color: #002621;
+    color: #fff;
+    float: left;
+}
+#como-funciona h2{
+    font-size: 24px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #fff;
+    margin-top: 35px;
+    margin-bottom: 35px;
+    position: relative;
+    z-index: 5;
+    text-align: center;
+}
+#como-funciona h4{}
+#como-funciona ul{
+    list-style: none;
+    text-align: left;
+}
+#como-funciona ul li{
+    font-size: 18px;
+    color: #fff;
+    position: relative;
+    counter-increment: items;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+#como-funciona ul li:before {
+    content: counter(items);
+    width: 50px;
+    height: 50px;
+    background-color: #fff;
+    border-radius: 50%;
+    color: #333;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 25px;
+    flex: none;
+    font-weight: 700;
+}
+
+
+
+#whatsapp{background: #01BFA5;width: 50%;height: 100%;min-height: 100vh;flex: none;/* padding: 80px; */display: flex;align-items: center;justify-content: center;flex-direction: column;float: right;}
+#whatsapp h1{
+    font-size: 24px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #fff;
+    margin-top: 35px;
+    margin-bottom: 35px;
+    position: relative;
+    z-index: 5;
+    text-align: center;
+}
+#whatsapp h4{}
+#whatsapp a{}
+#whatsapp a:hover{}
+#whatsapp form{}
+#whatsapp form fieldset{
+    border: none;
+    float: left;
+    width: 100%;
+    margin: 0 0 5%;
+}
+#whatsapp form fieldset label{
+    float: left;
+    width: 100%;
+}
+#whatsapp form fieldset label span{
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 1.1px;
+    color: #fff;
+    text-transform: uppercase;
+    margin-left: 15px;
+    margin-bottom: 5px;
+}
+#whatsapp form fieldset label span strong{}
+#whatsapp form fieldset label input{border: 0;padding: 5%;border-radius: 40px;outline: 0;width: 90%;color: #737373;}
+
+#whatsapp form .errors{
+    display: table;
+    width: 100%;
+}
+#whatsapp form .errors .error.error-invalid{
+    display: table;
+    width: 100%;
+    text-align: center;
+    margin: 0 0 4%;
+    text-transform: uppercase;
+    font-size: 11px;
+    background: #fff700;
+    padding: 2% 0;
+}
+
+
+#whatsapp form .button-group{
+    display: table;
+    margin: 0 auto;
+}
+#whatsapp form .button-group .button.button-submit{
+    background-color: #26d367;
+    border: 0;
+    padding: 20px 30px;
+    border-radius: 40px;
+    cursor: pointer;
+    outline: 0;
+    margin-top: 10px;
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 1.1px;
+    color: #fff;
+    text-transform: uppercase;
+    display: table;
+    margin: 0 auto;
+}
+
+
+
+
+
+
+
+
+#whatsapp .response{}
+#whatsapp .response fieldset{
+    border: none;
+    display: table;
+    width: 100%;
+}
+#whatsapp .response fieldset label{}
+#whatsapp .response fieldset label span{
+    font-size: 18px;
+    color: #fff;
+    font-weight: 300;
+    text-align: center;
+    display: table;
+    width: 100%;
+}
+#whatsapp .response fieldset label input{
+    border: 0;
+    padding: 5%;
+    border-radius: 40px;
+    outline: 0;
+    width: 90%;
+    color: #737373;
+    margin: 5% 0;
+}
+
+#whatsapp .response .errors{}
+#whatsapp .response .errors .error.error-shorten{}
+
+#whatsapp .response .button-group{}
+#whatsapp .response .button-group .button.button-copy{
+    background-color: #26d367;
+    border: 0;
+    padding: 12px 30px;
+    border-radius: 40px;
+    cursor: pointer;
+    outline: 0;
+    margin-top: 10px;
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 1.1px;
+    color: #fff;
+    text-transform: uppercase;
+    display: inline-table;
+    margin: 0 10px;
+}
+#whatsapp .response .button-group .button.button-short-url{
+    background-color: #26d367;
+    border: 0;
+    padding: 12px 30px;
+    border-radius: 40px;
+    cursor: pointer;
+    outline: 0;
+    margin-top: 10px;
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 1.1px;
+    color: #fff;
+    text-transform: uppercase;
+    display: inline-table;
+    margin: 0 10px;
+}
+#whatsapp .response .button-group .button.button-reset{
+    background-color: #26d367;
+    border: 0;
+    padding: 12px 30px;
+    border-radius: 40px;
+    cursor: pointer;
+    outline: 0;
+    margin-top: 10px;
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 1.1px;
+    color: #fff;
+    text-transform: uppercase;
+    display: inline-table;
+    margin: 0 10px;
+}
+
+#whatsapp .response .button-group{
+    display: table;
+    margin: 0 auto;
+    text-align: center;
+}
+/*
+#whatsapp .response .button-group .button.button-reset{
+    border: none;
+    background: transparent;
+    text-align: center;
+    text-decoration: none;
+    padding: 15px;
+    color: #fff;
+    font-size: 11px;
+    font-weight: 600;
+    letter-spacing: 1.1px;
+    text-transform: uppercase;
+    max-width: 220px;
+    border-radius: 30px;
+    display: block;
+    margin: 10px auto 0;
+    transition: all .2s ease-in-out;
+}
+
+#whatsapp .response .button-group .button.button-reset:hover{background-color:#fff; color:#000; cursor:pointer}
+*/
+
+@media only screen and (max-width:979px) {
+    #como-funciona{width: 100%;}
+#whatsapp{width: 100%;}
+}

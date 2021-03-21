@@ -1,0 +1,9 @@
+User-agent: *
+Crawl-delay: 15
+Allow: /
+Disallow: /blog/
+Disallow: *?filter*
+
+User-agent: Googlebot-image
+
+Sitemap: https://taciara.com.br/sitemap.xml
