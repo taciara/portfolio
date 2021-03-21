@@ -53,7 +53,7 @@
         })(window,document,'script','dataLayer','GTM-PBHKLS7');</script>
         <!-- End Google Tag Manager -->
 		
-		<style>canvas{max-width: 100% !important;}</style>
+	<style>canvas{max-width: 100% !important;}</style>
     </head>
 <body>
 
@@ -68,7 +68,6 @@
       window.dataLayer = window.dataLayer || [];
       function gtag(){dataLayer.push(arguments);}
       gtag('js', new Date());
-
       gtag('config', 'UA-85235674-22');
     </script>
 
